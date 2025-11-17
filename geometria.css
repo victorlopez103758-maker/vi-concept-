@@ -1,0 +1,178 @@
+/* Encabezado general */
+.encabezado {
+    background-color: #111;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Logo centrado y escalado */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 160px;
+    height: auto;
+    display: block;
+}
+
+/* Lema principal */
+.lema-principal {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .logo-container img {
+        max-width: 120px;
+    }
+
+    .lema-principal {
+        font-size: 1.5rem;
+    }
+}
+.proyecto img {
+    width: 100%;
+    max-width: 400px;
+    /* Tamaño uniforme */
+    height: 260px;
+    /* Altura fija */
+    object-fit: cover;
+    /* Recorta sin deformar */
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.proyecto {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.proyecto img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.proyecto img {
+    width: 300px;
+    /* Tamaño fijo para uniformidad */
+    height: auto;
+    /* Mantiene la proporción original */
+    display: block;
+    margin: 0 auto;
+    /* Centrado horizontal */
+    border-radius: 4px;
+    /* Opcional: bordes suaves */
+    object-fit: cover;
+    /* Asegura que se vea bien si usas height fija */
+}
+button {
+    background-color: #1a1a1a;
+    /* Fondo oscuro elegante */
+    color: #ffffff;
+    /* Texto blanco para contraste */
+    border: none;
+    /* Sin borde por defecto */
+    padding: 12px 24px;
+    /* Espaciado interno cómodo */
+    font-size: 16px;
+    /* Tamaño de fuente legible */
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    /* Ligero espaciado para claridad */
+    border-radius: 4px;
+    /* Bordes suavemente redondeados */
+    cursor: pointer;
+    /* Cursor tipo mano al pasar */
+    transition: all 0.3s ease;
+    /* Animación suave en hover */
+}
+
+button:hover {
+    background-color: #333333;
+    /* Cambio sutil al pasar el cursor */
+    transform: translateY(-2px);
+    /* Efecto de elevación ligera */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra elegante */
+}
+.encabezado {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BOTÓN INICIO */
+.boton-inicio {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    color: #fff !important;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 800;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease,
+        color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+    color: #fff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.icono {
+    transition: fill 0.3s ease;
+}
+
+.boton-inicio:hover .icono {
+    fill: #000;
+}
+.boton-inicio {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.boton-inicio a {
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer {
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: #222;
+}
+#geometria {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.galeria {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+.vision {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.vision h2 {
+    font-size: 1.8rem;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.vision ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vision li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+/* Encabezado fondo negro */
+.header-vision {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Título dentro del encabezado */
+.header-vision h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Botón Inicio centrado */
+.header-vision nav {
+    margin-top: 15px;
+}
+
+/* Estilo del botón */
+.btn-inicio {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Efecto hover */
+.btn-inicio:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+/* Footer moderno estilo arquitectónico */
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+/* Líneas arquitectónicas */
+.footer-line {
+    width: 80%;
+    margin: 20px auto;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #444, transparent);
+}
+
+/* Título */
+.footer-title {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+.footer-contacto p {
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+/* Botón WhatsApp */
+.btn-wsp-footer {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-wsp-footer:hover {
+    background-color: #1ebe57;
+    transform: translateY(-3px);
+}
+
+/* Texto final */
+.footer-copy {
+    margin-top: 25px;
+    font-size: 0.9rem;
+    color: #ccc;
+} 

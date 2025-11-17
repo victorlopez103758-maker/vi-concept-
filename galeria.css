@@ -1,0 +1,141 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.imagen {
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.imagen p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.imagen img:hover {
+    transform: scale(1.02);
+}
+
+.imagen p {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+    font-size: 1rem;
+    color: #222;
+}
+
+.btn-wsp {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icono {
+    transition: fill 0.3s ease;
+}
+
+.boton-inicio:hover .icono {
+    fill: #000;
+}
+
+.boton-inicio {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.boton-inicio a {
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* Centrado del botón */
+.nav-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Botón dinámico */
+.boton-inicio {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 24px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none;
+    transition:
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* Icono dinámico */
+.icono {
+    transition: transform 0.3s ease;
+}
+
+.boton-inicio:hover .icono {
+    transform: scale(1.1);
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .boton-inicio {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
